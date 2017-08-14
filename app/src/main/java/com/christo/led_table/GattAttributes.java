@@ -1,0 +1,31 @@
+package com.christo.led_table;
+
+class GattAttributes
+{
+    //Characteristic used to set the Notifications
+    static String UUID_CHARACTERISTIC_CONFIG = "00002902-0000-1000-8000-00805f9b34fb";
+
+    static String UUID_NVM_SERVICE   = "006b10d0-1c14-4884-bd04-16266753c952";
+    static String UUID_NVM_READ_DATA = "016b10d0-1c14-4884-bd04-16266753c952";
+
+    static String UUID_GLINK_SERIVCE     = "106b10d0-1c14-4884-bd04-16266753c952";
+    static String UUID_GLINK_CONNECTION  = "116b10d0-1c14-4884-bd04-16266753c952";
+    static String UUID_GLINK_DATA        = "126b10d0-1c14-4884-bd04-16266753c952";
+
+    static String UUID_TRANSACTION_SERVICE = "206b10d0-1c14-4884-bd04-16266753c952";
+    static String UUID_TRANSACTION_COUNT   = "216b10d0-1c14-4884-bd04-16266753c952";
+    static String UUID_TRANSACTION_READ    = "226b10d0-1c14-4884-bd04-16266753c952";
+
+    static String UUID_LOCK_SERVICE = "306b10d0-1c14-4884-bd04-16266753c952";
+    static String UUID_LOCK_BUTTON  = "316b10d0-1c14-4884-bd04-16266753c952";
+
+    static String UUID_DISPLAY_SERVICE       = "406b10d0-1c14-4884-bd04-16266753c952";
+    static String UUID_DISPLAY_LINE_NUMBER   = "416b10d0-1c14-4884-bd04-16266753c952";
+    static String UUID_DISPLAY_LINE_COLOR    = "426b10d0-1c14-4884-bd04-16266753c952";
+    static String UUID_DISPLAY_LINE_STRING   = "436b10d0-1c14-4884-bd04-16266753c952";
+    static String UUID_DISPLAY_PROGRESS      = "446b10d0-1c14-4884-bd04-16266753c952";
+    static String UUID_BATTERY_PERCENTAGE    = "456b10d0-1c14-4884-bd04-16266753c952";
+
+    static String UUID_GPS_SERVICE   = "506b10d0-1c14-4884-bd04-16266753c952";
+    static String UUID_GPS           = "516b10d0-1c14-4884-bd04-16266753c952";
+}

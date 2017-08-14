@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">LED_Table</string>
+
+    <!-- Navigation Drawer Strings -->
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string-array name="navigation_drawer_array">
+        <item>SwipePad</item>
+        <!--<item>ImageLoader</item>-->
+    </string-array>
+
+    <!-- DeviceScanActivity -->
+    <string name="deviceScanActivity_title">Bluetooth Devices</string>
+    <string name="deviceScanActivity_bleNotSupported">Bluetooth Low Energy not supported!</string>
+    <string name="deviceScanActivity_btNotSupported">Bluetooth not supported!</string>
+    <string name="deviceScanActivity_btRequired">Bluetooth required to continue</string>
+    <string name="deviceScanActivity_unknownDevice">Unknown device</string>
+    <string name="deviceScanActivity_permissionRequired">Location Permission required to continue</string>
+
+    <!--Back button dialog -->
+    <string name="alertDialog_Title">Confirm</string>
+    <string name="alertDialog_msgKeyActivity">Are you sure you want to close the Bluetooth connection?</string>
+    <string name="alertDialog_msgMainActivity">"Close Bluetooth connection?</string>
+
+</resources>
